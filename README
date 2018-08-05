@@ -1,0 +1,17 @@
+Java File Sync
+Yusuf Ansari
+05 August 2018
+
+------------------------------About------------------------------
+Its a simple java application based on socket programming.
+
+---------------------------How to Use----------------------------
+1. run the main method.
+2. start the server by choosing "s" as input and input the port and the directory;
+3. run another instance of this application on different device and choose "c" this time. give the server ip, port and location of the folder.
+4. thats all, a new file will create in client folder , it will also be create on the server folder, and whenever client will delete the data same will happen in the server folder.
+
+
+----------------------------Implementation-----------------------
+There is a watchService which monitor the activity inside a folder, every time it detects the file creation, update or deletion of a file, it send the file to server with information attatched what operation to be perform on the file on the server. 
+
